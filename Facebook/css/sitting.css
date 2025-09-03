@@ -1,0 +1,928 @@
+  *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+ }
+
+  .boxone{
+   width: 450px;
+   height: 2000px;
+   background-color: white;
+   position: relative;
+   overflow: scroll;
+   overflow-x: hidden;
+   
+  }
+   h1{
+   position: absolute;
+  left: 16px;
+ top: 10px;
+  
+  }
+  
+
+.search-bar{
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 12px 100px 12px 4px;
+ 
+  background: rgb(207, 206, 206);
+  border-radius: 30px;
+  position: absolute;
+  left: 12px;
+  top: 80px;  
+}
+ .search-bar input{
+   width: 250px;
+   height: 15px;
+   outline: none;
+   border: none;
+   background-color: rgb(207, 206, 206) ;
+  }
+  .hr{
+   position: absolute;
+  bottom:  1830px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .parttwo{
+      position: relative;
+     margin-left: 15px;
+     padding-top: 155px;
+  }
+ 
+   
+  .hr2{
+   position: absolute;
+  bottom:  1630px;
+   
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .parttwo h5{
+      position: relative;
+      top: -25px;
+      left: 22px;
+  }
+
+   .partthree{
+      position: relative;
+     margin-left: -440px;
+     padding-bottom: 950px;
+  }
+  .partthree h5{
+   position: relative;
+      top: -25px;
+      left: 22px;
+  }
+ .partthree .hr3{
+  position: relative;
+right: 10px;
+  top:  -20px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .partfour{
+   position: relative;
+     margin-left: -450px;
+     padding-bottom: 530px;
+  }
+  .partfour h5{
+   position: relative;
+      top: -25px;
+      left: 22px;
+  }
+ .partfour .hr4{
+  position: relative;
+right: 10px;
+  top:  -35px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+ }
+ .partfive{
+  position: relative;
+     margin-left: -450px;
+     padding-bottom: 15px; 
+ }
+ .partfive h5{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+  .partfive hr{
+    position: relative;
+right: 10px;
+  top:  -35px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+ .partsix{
+    position: absolute;
+      left:15px;
+      top:  1180px;  
+ }
+ .partsix h5{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+   .partsix hr{
+    position: relative;
+right: 14px;
+  top:  -20px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+ .partseven{
+   position: absolute;
+      left:15px;
+      top:  1360px;  
+ }
+  .partseven h5{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+  .partseven hr{
+     position: relative;
+right: 14px;
+  top:  -20px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .boxtwo{
+    width: 860px;
+   height: 150px;
+   background-color: white;
+   position: absolute;
+   top:40px;
+   left: 470px;
+    border-radius: 30px;
+  }
+  .boxtwo h2{
+    position: absolute;
+   top:20px;
+   left: 20px;
+  }
+  .search-bar2 input{
+   width: 600px;
+   height: 15px;
+    outline: none;
+   border: none;
+   background-color: rgb(207, 206, 206) ;
+  }
+  
+.search-bar2{
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 12px 100px 12px 4px;
+ 
+  background: rgb(207, 206, 206);
+  border-radius: 30px;
+  position: absolute;
+  left: 12px;
+  top: 80px;
+ 
+}
+.boxthree{
+   width: 860px;
+   height: 1800px;
+   background-color: white;
+   position: absolute;
+   top:200px;
+   left: 470px;
+   border-radius: 30px; 
+}
+.boxthree h3{
+   position: absolute;
+   top:30px;
+   left: 15px;
+
+}
+.boxthree .one{
+  width: 270px;
+   height: 270px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:90px;
+   left: 20px;
+}
+.one img{
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   top:20px;
+   left: 95px;
+   background-color: rgb(171, 171, 252);
+   border-radius: 50%;
+}
+.one p{
+  position: absolute;
+   top:150px;
+   left: 20px;  
+}
+.one h5{
+  position: absolute;
+   top:110px;
+   left: 20px;   
+} 
+.boxthree .two{
+     width: 270px;
+  height: 270px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:90px;
+   left: 300px;  
+}
+.two img{
+   width: 75px;
+   height: 75px;
+   position: absolute;
+   top:10px;
+   left: 95px;
+   
+   
+}
+.two h5{
+   position: absolute;
+   top:110px;
+   left: 20px;    
+}
+.two p{
+    position: relative;
+   top:150px;
+   left: 15px; 
+}
+.boxthree .three{
+  width: 270px;
+  height: 270px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:90px;
+   left: 580px;   
+}
+.three img{
+    width: 75px;
+   height: 75px;
+   position: absolute;
+   top:10px;
+   left: 95px;  
+}
+.three h5{
+   position: absolute;
+   top:110px;
+   left: 20px; 
+}
+.h3{
+   position: relative;
+   top:370px;
+   left: 4px;   
+}
+.boxthree .four{
+    width: 800px;
+  height: 150px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:500px;
+   left: 15px; 
+}
+.four img{
+    width: 120px;
+   height: 120px;
+   position: absolute;
+   top:10px;
+   left: 15px; 
+}
+.four h4{
+   position: absolute;
+   top:45px;
+   left: 145px; 
+}
+.four p{
+   position: absolute;
+   top:80px;
+   left: 145px;  
+}
+.four .img2{
+  
+   position: absolute;
+   top:10px;
+   left: 650px;
+   width: 22px;
+   height: 22px;
+}
+ .boxthree .five{
+ width: 800px;
+  height: 150px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:670px;
+   left: 15px; 
+}
+.five h4{
+    position: absolute;
+   top:25px;
+   left: 170px;  
+}
+.five p{
+ position: absolute;
+   top:60px;
+   left: 170px;   
+}
+.five img{
+    width: 120px;
+   height: 120px;
+   position: absolute;
+   top:10px;
+   left: 25px;   
+}
+.five .img2{
+    position: absolute;
+   top:10px;
+   left: 650px;
+   width: 10px;
+   height: 10px;
+}
+
+
+ @media (min-width:700px) and (max-width:1800px){
+  *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+ }
+
+  .boxone{
+   width: 450px;
+   height: 2000px;
+   background-color: white;
+   position: relative;
+   overflow: scroll;
+   overflow-x: hidden;
+   
+  }
+   h1{
+   position: absolute;
+  left: 16px;
+ top: 10px;
+  
+  }
+  
+
+.search-bar{
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 12px 100px 12px 4px;
+ 
+  background: rgb(207, 206, 206);
+  border-radius: 30px;
+  position: absolute;
+  left: 12px;
+  top: 80px;  
+}
+ .search-bar input{
+   width: 250px;
+   height: 15px;
+   outline: none;
+   border: none;
+   background-color: rgb(207, 206, 206) ;
+  }
+  .hr{
+   position: absolute;
+  bottom:  1830px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .parttwo{
+      position: relative;
+     margin-left: 15px;
+     padding-top: 155px;
+  }
+ 
+   
+  .hr2{
+   position: absolute;
+  bottom:  1630px;
+   
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .parttwo h5{
+      position: relative;
+      top: -25px;
+      left: 22px;
+  }
+
+   .partthree{
+      position: relative;
+     margin-left: -440px;
+     padding-bottom: 950px;
+  }
+  .partthree h5{
+   position: relative;
+      top: -25px;
+      left: 22px;
+  }
+ .partthree .hr3{
+  position: relative;
+right: 10px;
+  top:  -20px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .partfour{
+   position: relative;
+     margin-left: -450px;
+     padding-bottom: 530px;
+  }
+  .partfour h5{
+   position: relative;
+      top: -25px;
+      left: 22px;
+  }
+ .partfour .hr4{
+  position: relative;
+right: 10px;
+  top:  -35px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+ }
+ .partfive{
+  position: relative;
+     margin-left: -450px;
+     padding-bottom: 15px; 
+ }
+ .partfive h5{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+  .partfive hr{
+    position: relative;
+right: 10px;
+  top:  -35px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+ .partsix{
+    position: absolute;
+      left:15px;
+      top:  1180px;  
+ }
+ .partsix h5{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+   .partsix hr{
+    position: relative;
+right: 14px;
+  top:  -20px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+ .partseven{
+   position: absolute;
+      left:15px;
+      top:  1360px;  
+ }
+  .partseven h5{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+  .partseven hr{
+     position: relative;
+right: 14px;
+  top:  -20px;
+  width: 450px;
+  color: rgb(12, 12, 12);
+  }
+  .boxtwo{
+    width: 860px;
+   height: 150px;
+   background-color: white;
+   position: absolute;
+   top:40px;
+   left: 470px;
+    border-radius: 30px;
+  }
+  .boxtwo h2{
+    position: absolute;
+   top:20px;
+   left: 20px;
+  }
+  .search-bar2 input{
+   width: 600px;
+   height: 15px;
+    outline: none;
+   border: none;
+   background-color: rgb(207, 206, 206) ;
+  }
+  
+.search-bar2{
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 12px 100px 12px 4px;
+ 
+  background: rgb(207, 206, 206);
+  border-radius: 30px;
+  position: absolute;
+  left: 12px;
+  top: 80px;
+ 
+}
+.boxthree{
+   width: 860px;
+   height: 1800px;
+   background-color: white;
+   position: absolute;
+   top:200px;
+   left: 470px;
+   border-radius: 30px; 
+}
+.boxthree h3{
+   position: absolute;
+   top:30px;
+   left: 15px;
+
+}
+.boxthree .one{
+  width: 270px;
+   height: 270px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:90px;
+   left: 20px;
+}
+.one img{
+   width: 60px;
+   height: 60px;
+   position: absolute;
+   top:20px;
+   left: 95px;
+   background-color: rgb(171, 171, 252);
+   border-radius: 50%;
+}
+.one p{
+  position: absolute;
+   top:150px;
+   left: 20px;  
+}
+.one h5{
+  position: absolute;
+   top:110px;
+   left: 20px;   
+} 
+.boxthree .two{
+     width: 270px;
+  height: 270px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:90px;
+   left: 300px;  
+}
+.two img{
+   width: 75px;
+   height: 75px;
+   position: absolute;
+   top:10px;
+   left: 95px;
+   
+   
+}
+.two h5{
+   position: absolute;
+   top:110px;
+   left: 20px;    
+}
+.two p{
+    position: relative;
+   top:150px;
+   left: 15px; 
+}
+.boxthree .three{
+  width: 270px;
+  height: 270px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:90px;
+   left: 580px;   
+}
+.three img{
+    width: 75px;
+   height: 75px;
+   position: absolute;
+   top:10px;
+   left: 95px;  
+}
+.three h5{
+   position: absolute;
+   top:110px;
+   left: 20px; 
+}
+.h3{
+   position: relative;
+   top:370px;
+   left: 4px;   
+}
+.boxthree .four{
+    width: 800px;
+  height: 150px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:500px;
+   left: 15px; 
+}
+.four img{
+    width: 120px;
+   height: 120px;
+   position: absolute;
+   top:10px;
+   left: 15px; 
+}
+.four h4{
+   position: absolute;
+   top:45px;
+   left: 145px; 
+}
+.four p{
+   position: absolute;
+   top:80px;
+   left: 145px;  
+}
+.four .img2{
+  
+   position: absolute;
+   top:10px;
+   left: 650px;
+   width: 22px;
+   height: 22px;
+}
+ .boxthree .five{
+ width: 800px;
+  height: 150px; 
+   background: rgb(207, 206, 206);
+   border-radius: 20px; 
+   position: absolute;
+   top:670px;
+   left: 15px; 
+}
+.five h4{
+    position: absolute;
+   top:25px;
+   left: 170px;  
+}
+.five p{
+ position: absolute;
+   top:60px;
+   left: 170px;   
+}
+.five img{
+    width: 120px;
+   height: 120px;
+   position: absolute;
+   top:10px;
+   left: 25px;   
+}
+.five .img2{
+    position: absolute;
+   top:10px;
+   left: 650px;
+   width: 10px;
+   height: 10px;
+}
+
+ }
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   @media  (max-width:701px) and (min-width:440px) {
+     .boxone{
+   width: 300px;
+   height: 2000px;
+   background-color: white;
+   position: relative;
+   overflow: scroll;
+   overflow-x: hidden;
+   
+  }
+   h1{
+   position: absolute;
+  left: 16px;
+ top: 10px;
+  
+  }
+  
+
+.search-bar{
+  height: 40px;
+  display: flex;
+  cursor: pointer;
+  padding: 12px 100px 12px 4px;
+ 
+  background: rgb(207, 206, 206);
+  border-radius: 30px;
+  position: absolute;
+  left: 12px;
+  top: 80px;  
+}
+ .search-bar input{
+   width: 150px;
+   height: 15px;
+   outline: none;
+   border: none;
+   background-color: rgb(207, 206, 206) ;
+  }
+  .hr{
+   position: absolute;
+  bottom:  1830px;
+  width: 300px;
+  color: rgb(12, 12, 12);
+  }
+  .parttwo{
+      position: relative;
+     margin-left: 15px;
+     padding-top: 155px;
+  }
+ 
+   
+  .hr2{
+   position: absolute;
+  bottom:  1630px;
+   
+  width: 300px;
+  color: rgb(12, 12, 12);
+  }
+  .parttwo h6{
+      position: relative;
+      top: -20px;
+      left: 20px;
+  }
+
+   .partthree{
+      position: relative;
+     left: 157px;
+     padding-bottom: 950px;
+  }
+  .partthree h6{
+   position: relative;
+      top: -20px;
+      left: 30px;
+  }
+   .partthree .h6{
+      position: relative;
+            left: -15px;
+
+   }
+   .partthree h3{
+        position: relative;
+        top: -15px;
+   }
+
+ .partthree .hr3{
+  position: relative;
+left:   -15px;
+  top:  -20px;
+  width:300px;
+  color: rgb(12, 12, 12);
+  }
+
+
+
+
+  .partfour{
+   position:  relative;
+     left:  310px;
+     padding-bottom: 600px; 
+  }
+  .partfour h6{
+   position:  relative;
+      top:   -20px;
+      left: 20px;
+  }
+ .partfour .hr4{
+  position: relative;
+ left: -19px;
+  top:  -35px;
+  width: 300px;
+  color: rgb(12, 12, 12);
+ }
+
+
+ .partfive{
+  position: relative;
+     margin-left: 10px;
+     padding-bottom: 65px; 
+ }
+ .partfive h6{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+  .partfive hr{
+    position: relative;
+right: 20px;
+  top:  -35px;
+  width:300px;
+  color: rgb(12, 12, 12);
+  }
+ .partfive .zxc{
+    position:  absolute;
+    left: -10px;
+   }
+   .partfive h3{
+          position:  absolute;
+top: -70px;
+   }
+ .partsix{
+    position: absolute;
+      left:15px;
+      top:  1100px;  
+ }
+ .partsix h6{
+   position: relative;
+      top: -20px;
+      left: 27px;
+  }
+   .partsix hr{
+    position: relative;
+right: 14px;
+  top:  -20px;
+  width: 300px ;
+  color: rgb(12, 12, 12);
+  }
+ .partseven{
+   position: absolute;
+      left:15px;
+      top:  1249px;  
+ }
+  .partseven h6{
+   position: relative;
+      top: -25px;
+      left: 27px;
+  }
+  .partseven .bbb{
+    position: relative;
+      top: -9px;
+        left: 10px;
+  }
+  .partseven hr{
+     position: relative;
+right: 14px;
+  top:  -20px;
+  width:300px;
+  color: rgb(12, 12, 12);
+  }  
+   }
+
+
+
+
+
+
+
+
+
+ 
+
+  

@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: #f0f2f5;
+  color: #050505;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.container .sidebar {
+  flex: 1;
+  width: 400px;
+  position: fixed;
+  top: 58px;
+  bottom: 0;
+  right: 2px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+  overflow-y: auto;
+  min-width: 200px;
+  max-width: 300px;
+}
+.sidebar nav a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.sidebar nav a .fa {
+  margin-left: 8px;
+  font-size: 18px;
+}
+.sidebar nav a.active ,.sidebar nav a:hover {
+  background: #e4e6eb;
+}
+.main-content {
+  margin-right: 200px;
+  padding: 20px;
+  overflow-y: auto;
+  flex: 3;
+  min-width: 300px;
+}
+.main-content h2 {
+  margin-bottom: 16px;
+  color: #050505;
+}
+.requests-grid {
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+.request-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.request-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.request-card .info {
+  padding: 12px;
+}
+.request-card .info h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  margin: 0;
+  padding: 0;
+}
+.request-card .info p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+.request-card .buttons {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  justify-content: space-between;
+}
+.request-card .buttons button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.request-card .confirm {
+  background: #1877f2;
+  color: #fff;
+  flex: 1;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.request-card .delete {
+  background: #e4e6eb;
+  flex: 1;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+.container {
+flex-direction: column;
+}
+.sidebar {
+width: 100%;
+max-width: 100%;
+}
+.main-content {
+width: 100%;
+max-width: 100%;
+}
+.homeheaderleft, .homeheadercenter, .homeheaderend {
+flex-wrap: wrap;
+justify-content: center;
+}
+.homesearch input {
+width: 100%;
+}}
+@media (max-width: 480px) {
+.buttons {
+flex-direction: column;
+}
+.confirm, .delete {
+width: 100%;
+}}

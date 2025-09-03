@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- facebook logo and text -->
+    <div class="conleft">
+      <h1>facebook</h1>
+      <pre>
+Facebook helps you connect and share 
+with the people in your life.
+      </pre>
+    </div>
+
+    <!-- right section (login card) -->
+    <div class="conright">
+      <div class="logincard">
+
+         <form id="loginForm" onsubmit="savedata(event)">
+        <!-- email field -->
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+
+        <!-- password field -->
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <!-- login button -->
+        <div class="login">
+         <a href="../home.html">  <button class="btn btn-primary" type="email"><h5>Log In</h5></button> </a>
+        </div>
+        
+        <!-- forgotten password link -->
+        <div class="forgot">
+          <a href="#">Forgotten password?</a>
+        </div>
+        <!-- create new account link -->
+         <hr>
+         <a href="../sign up/signup.html"><button type="button" class="btn btn-primary btn-lg">Create new account</button></a>
+      </div>
+      <div class="create">
+        <a href="#">Create a Page</a> for a celebrity, brand or business.
+      </div>
+    </div>
+
+  </div>
+  
+  <script src="./js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+body {
+    background-color: #F0F2F5;
+    height: 1000px;
+}
+
+.slogan {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.slogan h1 {
+    text-align: center;
+    color: #0866FF;
+    font-size: 55px;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 40%;
+}
+
+.signUpcon {
+    width: 40%;
+    height: 700px;
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 30%;
+    padding: 10px;
+}
+
+.firstname {
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+
+}
+
+.surname {
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+}
+
+.dateInfo {
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 170px;
+    display: flex;
+    align-items: center;
+    color: #606770;
+}
+
+.fa-circle-question {
+    width: 15px;
+    margin-left: 5px;
+    color: #606770;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.dateofbirth {
+    width: 100%;
+    position: absolute;
+    top: 220px;
+    display: flex;
+}
+
+.daycell {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+
+}
+
+.dateofbirth .daycell select {
+    width: 80%;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.monthcell {
+    width: 30%;
+    height: 50px;
+    margin-right: 5px;
+    position: absolute;
+    left: 35%;
+}
+
+.dateofbirth .monthcell select {
+    width: 80%;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.yearcell {
+    width: 30%;
+    height: 50px;
+    position: absolute;
+    left: 70%;
+}
+
+.dateofbirth .yearcell select {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.genderInfo {
+    width: 45%;
+    height: 50px;
+    position: absolute;
+    left: 20px;
+    top: 270px;
+    display: flex;
+    align-items: center;
+    color: #606770;
+}
+
+.gender {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 390px;
+}
+
+.male {
+    width: 30%;
+    height: 40px;
+    border: 1px solid #CCD0D5;
+    border-radius: 5px;
+    position: absolute;
+    left: 10px;
+}
+
+.male h6 {
+    color: #606770;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.male input {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.female {
+    width: 30%;
+    height: 40px;
+    border: 1px solid #CCD0D5;
+    border-radius: 5px;
+    position: absolute;
+    left: 190px;
+}
+
+.female h6 {
+    color: #606770;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.female input {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.custom {
+    width: 30%;
+    height: 40px;
+    border: 1px solid #CCD0D5;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+}
+
+.custom h6 {
+    color: #606770;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.custom input {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+.datacells{
+    width: 95%;
+    height: 50px;
+    position: absolute;
+    bottom: 290px;
+}
+.p1{
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+}
+.p1 pre{
+    font-size: 12px;
+    color: #606770;
+    font-weight: 600;
+}
+.p1 a {
+    color: #385898;
+    text-decoration: none;
+}
+.p1 a:hover {
+    text-decoration: underline;
+}
+.p1 p{
+    font-size: 12px;
+    color: #606770;
+    font-weight: 600;
+}
+.d-grid{
+    width: 45%;
+    position: absolute;
+    bottom: 50px;
+    left: 27%;
+}
+.d-grid button {
+    width: 100%;
+    background-color: #00A400;
+    border: #00A400;
+    font-size: 20px;
+}
+.d-grid button:hover {
+    background-color: #008000;
+    border: #008000;
+}
+.already{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    left: 30%;
+    color: #1877F2;
+    font-size: 20px;
+}

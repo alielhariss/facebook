@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Messages</title>
+  <link rel="stylesheet" href="./messages.css">
+  <link rel="stylesheet" href="./navbar/css/all.min.css">
+  <link rel="stylesheet" href="./navbar/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./friends.html">
+  </head>
+<body>
+      <div class="home">
+        <!-- nav bar -->
+        <div class="sec1home">
+            <!-- header -->
+            <div class="homeheader">
+                <!-- facebook logo and search bar -->
+                <div class="homeheaderleft">
+                  <a href="./home.html"> <i class="fa-brands fa-facebook"></i> </a>
+                    <div class="homesearch">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search Facebook">
+                    </div>
+                    <!-- center icons -->
+                    <div class="homeheadercenter">
+                        <a href="./home.html"> <i class="fa-solid fa-house-window"></i> </a>
+                        <a href="../friends.html"><i class="fa-light fa-user-group"></i></a>
+                    </div>
+                    <!-- right icons -->
+                    <div class="homeheaderend">
+                        <button id="find">Find friends</button>
+                        <a href="./messages.html" id="messenger-btn"><i class="fab fa-facebook-messenger"></i></a>
+                        <i class="fa-solid fa-bell"></i>
+                        <a href="./sitting.html"><i class="fa-solid fa-gear"></i></a>
+                        <a href="./profile.html"><i class="fa-solid fa-user"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <div id="messages-section">
+  <div class="container">
+  <!-- Main Message Box -->
+  <div class="main-box">
+    <div class="message-header">
+      <h2>Chats</h2>
+      <div class="message-icons">
+      <i class="fa-solid fa-bars" title="Menu"></i>
+      <i class="fa-solid fa-pen-to-square" title="New Chat"></i>
+    </div>
+  </div>
+    <div class="search-zone">
+      <input type="text" class="search-box" placeholder="Search in Messenger" >
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+  <!-- message Box Body -->
+  <div class="one">
+      <ul>
+      <li class="incoming">incoming mail</li>
+      <li class="communities">Communities</li>
+      </ul>
+  </div>
+  <!-- message list -->
+<div class="chat-list">
+  <!-- chat item -->
+  <div class="chat-item">
+    <img src="./img/happy-man-.avif" 
+    alt="Laila" class="profile-pic">
+    <div class="chat-details">
+    <span class="chat-name">Laila Alaa</span>
+    <p class="chat-text">Good luck!</p>
+    </div>
+    </div>
+
+  <div class="chat-item">
+    <img src="./img/galaxy-nature-.avif" 
+    alt="Ahmed" class="profile-pic">
+    <div class="chat-details">
+    <span class="chat-name">Ahmed Ibrahim</span>
+    <p class="chat-text">Let's meet tomorrow.</p>
+    </div>
+  </div>
+
+  <div class="chat-item">
+    <img src="./img/misurina-sunset_181624-34793.avif" 
+    alt="Sara" class="profile-pic">
+    <div class="chat-details">
+    <span class="chat-name">Sara Hamada</span>
+    <p class="chat-text">Hey, how are you?</p>
+    </div>
+  </div>
+
+  <div class="chat-item">
+    <img src="./img/young-bearded-man.avif" 
+    alt="Amir" class="profile-pic">
+    <div class="chat-details">
+    <span class="chat-name">Amir Elsaid</span>
+    <p class="chat-text">See you soon.</p>
+    </div>
+  </div>
+
+  <div class="chat-item">
+    <img src="./img/woman-hijab-.avif" 
+    alt="Yasmine" class="profile-pic">
+    <div class="chat-details">
+    <span class="chat-name">Yasmine Waleed</span>
+    <p class="chat-text">Call me back.</p>
+    </div>
+  </div>
+
+  <div class="chat-item">
+    <img src="./img/beautiful-father-s-day-.avif" 
+    alt="Omar" class="profile-pic">
+    <div class="chat-details">
+    <span class="chat-name">Omar Khairy</span>
+    <p class="chat-text">What's up?</p>
+    </div>
+  </div>
+
+  <div class="chat-item">
+    <img src="./img/morskie-oko-tatry_1204-510.avif" 
+    alt="Salma" class="profile-pic">
+    <div class="chat-details">
+    <span class="chat-name">Salma Ismail</span>
+    <p class="chat-text">Okay, talk later.</p>
+      </div>
+        </div>
+          </div>
+            </div>
+              </div>
+              </div>
+  <!-- Chat Box -->
+  <div id="chat-box" class="chat-box">
+    <div class="chat-header">
+      <div class="left">
+        <i class="fas fa-phone" title="Call"></i>
+        <i class="fas fa-video" title="Video"></i>
+        <i class="fas fa-cog" title="Settings"></i>
+      </div>
+      <div class="right">
+        <img id="chat-user-img" src="">
+        <span id="chat-user-name"></span>
+        <i class="fas fa-times close-chat" onclick="closeChat()" title="Close"></i>
+      </div>
+      </div>
+  <!-- Chat content -->
+  <div class="chat-content" id="chat-content"></div>
+    <div class="chat-input-box">
+        <i class="fas fa-paperclip attach-icon" title="Attach file"></i>
+        <i class="far fa-smile emoji-icon" title="Emoji"></i>
+        <input type="text" id="chat-input" placeholder="Type a message...">
+        <button onclick="sendMessage()"><i class="fas fa-paper-plane"></i></button>
+    </div>
+    </div>
+    </div>
+  </div>
+<script src="./navbar/js/all.min.js"></script>
+    <script src="./navbar/js/bootstrap.min.js"></script>
+    <script src="./navbar/js/home.js"></script>
+    <script src="./messages.js"></script>
+</body>
+</html>

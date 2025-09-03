@@ -1,0 +1,84 @@
+body{
+    background-color: #F2F4F7;
+}
+.container{
+    width: 80%;
+    height: 750px;
+    display: flex;
+}
+.conleft{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.conleft h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #0866FF;
+    position: absolute;
+    left: 40px;
+    bottom: 65%;
+    
+}
+.conleft pre{
+    font-size: 27px;
+    font-weight: 500;
+    position: absolute;
+    left: 40px;
+    bottom: 45%;
+}
+.container .conright{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+.logincard{
+    width: 62%;
+    height: 380px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    position: absolute;
+    top: 160px;
+    padding: 20px;
+    z-index: 0;
+}
+.login button{
+    width: 100%;
+    margin-top: 10px;
+}
+.forgot{
+    margin-top: 10px;
+    text-align: center;
+}
+.forgot a{
+    color: #0866FF;
+    font-weight: 500;
+    text-decoration: none;
+}
+.forgot a:hover{
+    text-decoration: underline;
+}
+button.btn.btn-primary.btn-lg {
+  background-color: #36A420;
+  border-color: #36A420;
+  margin-left: 70px;
+}
+.create{
+    margin-top: 400px;
+    z-index: 1;
+}
+.create a{
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+.create a:hover{
+    text-decoration: underline;
+}

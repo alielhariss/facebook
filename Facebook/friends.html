@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>friends</title>
+  <link rel="stylesheet" href="./navbar/css/all.min.css">
+  <link rel="stylesheet" href="./navbar/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <link rel="stylesheet" href="./friends.css">
+
+</head>
+
+<body>
+  <div class="home">
+    <!-- nav bar -->
+    <div class="sec1home">
+      <!-- header -->
+      <div class="homeheader">
+        <!-- facebook logo and search bar -->
+        <!-- facebook logo -->
+        <div class="homeheaderleft">
+          <a href="./home.html"> <i class="fa-brands fa-facebook"></i> </a>
+          <!-- searchbar -->
+          <div class="homesearch">
+            <input type="text" placeholder="Search Facebook" />
+          </div>
+          <!-- center icons -->
+          <div class="homeheadercenter">
+            <a href="./home.html">
+              <i class="fa-solid fa-house-window"></i>
+            </a>
+            <a href="./friends.html"><i class="fa-light fa-user-group"></i></a>
+          </div>
+          <!-- right icons -->
+          <div class="homeheaderend">
+            <button id="find">Find friends</button>
+            <a href="./messages.html"><i class="fab fa-facebook-messenger"></i></a>
+            <div class="notif-wrapper" style="position: relative;">
+              <i class="fa-solid fa-bell" onclick="toggleNotifBox()"></i>
+              <div id="notifBox" class="notif-box" style="display: none;"></div>
+            </div>
+
+            <a href="./sitting.html"><i class="fa-solid fa-gear"></i></a>
+            <a href="./profile.html"><i class="fa-solid fa-user"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- container -->
+  <div class="container">
+    <!-- sidebar -->
+    <div class="sidebar">
+      <nav>
+        <h2 style="font-weight: bold;">Friends</h2>
+        <a href="#" class="active">Home
+          <i class="fa-solid fa-user-group"></i>
+        </a>
+        <a href="#">Friend requests
+          <i class="fa-solid fa-user"></i>
+        </a>
+        <a href="#">Suggestions
+          <i class="fa-solid fa-user-plus"></i>
+        </a>
+
+        <a href="#">All friends
+          <i class="fa-solid fa-users-line"></i>
+        </a>
+
+        <a href="#">Birthdays
+          <i class="fa-solid fa-gift"></i>
+        </a>
+
+        <a href="#">Custom lists
+          <i class="fa-solid fa-list-check"></i>
+        </a>
+        <a href="#">Settings
+          <i class="fa-solid fa-user-gear"></i>
+        </a>
+      </nav>
+    </div>
+    <!-- main content -->
+    <div class="main-content">
+      <h4 style="font-weight: bold;">Friend requests</h4>
+      <!-- requests zone -->
+      <div class="requests-grid">
+        <div class="request-card">
+          <img src="./img/woman-hijab-.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Nour Ali</h4>
+            <p>5 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+
+        <div class="request-card">
+          <img src="./img/galaxy-nature-.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Fatima Saad</h4>
+            <p>9 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+
+        <div class="request-card">
+          <img src="./img/beautiful-father-s-day-.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Khaled Ahmed</h4>
+            <p>3 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+
+        <div class="request-card">
+          <img src="./img/young-bearded-man.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Omar Ramadan</h4>
+            <p>8 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+
+        <div class="request-card">
+          <img src="./img/misurina-sunset_181624-34793.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Mohamed Fayed</h4>
+            <p>12 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+
+        <div class="request-card">
+          <img src="./img/morskie-oko-tatry_1204-510.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Salma Ragab</h4>
+            <p>1 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+
+        <div class="request-card">
+          <img src="./img/terrace-green-tea-plantation-landscape-morning-chiang-mai-thailand_37778-790.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Mohamed Azab</h4>
+            <p>7 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+
+        <div class="request-card">
+          <img src="./img/dandelions-meadow-summer-day_1398-3768.avif" alt="">
+          <div class="info">
+            <h4 style="font-weight: 600;">Rana Galal</h4>
+            <p>2 mutual friends</p>
+          </div>
+          <div class="buttons">
+            <button class="confirm">confirm</button>
+            <button class="delete">delete</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var conf = document.querySelectorAll('.confirm');
+    for (let i = 0; i < conf.length; i++) {
+      conf[i].onclick = function () {
+        this.parentNode.innerHTML =
+          '<span style="font-weight:600;color:#1877f2">You became friends</span>';
+      };
+
+      var del = document.querySelectorAll('.delete');
+      for (let i = 0; i < del.length; i++) {
+        del[i].onclick = function () {
+          this.parentNode.innerHTML =
+            '<span style="font-weight:600;color:red">Canceled</span>';
+        };
+      }
+    }
+  </script>
+  <script src="./messages.js"></script>
+  <script src="./navbar/js/all.min.js"></script>
+  <script src="./navbar/js/bootstrap.min.js"></script>
+  <script src="./navbar/js/home.js"></script>
+</body>
+
+</html>
